@@ -1,3 +1,17 @@
+# 提醒(2025年7月1日)：
+* 此仓库将于30天后弃用，ROS2代码已移植到：
+```bash
+https://github.com/JAKARobotics
+```
+* 后续更新将在JAKARobotics中更新。
+
+# Reminder(July 1, 2025):
+* This repository will be deprecated in 30 days, with some code (ROS1, ROS2) migrated to:
+```bash
+https://github.com/JAKARobotics
+```
+* Further updates will be provided in JAKARobotics.
+
 # jaka_ros2 Package
 
 This project contains the source code for the **Jaka Robot Driver Package** in **ROS2** with **SDK version 2.2.2**. 
