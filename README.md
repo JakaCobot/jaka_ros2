@@ -35,13 +35,13 @@ git clone git@github.com:JakaCobot/jaka_ros2.git
 
 ### 2. Build the packages
 ```bash
-cd <path-to-where-the-repository-is-cloned>/jaka_ros2/src
-colcon build
+cd <path-to-where-the-repository-is-cloned-or-extracted>/jaka_ros2
+colcon build --symlink-install
 ```
 
 ### 3. Setup the terminal environment
 ```bash
-echo "source <path-to-where-the-repository-is-cloned>/jaka_ros2/install/setup.sh" >> ~/.bashrc
+echo "source <path-to-where-the-repository-is-cloned-or-extracted>/jaka_ros2/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
